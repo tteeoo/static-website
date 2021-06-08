@@ -10,4 +10,4 @@ I am a high school student with an interest in computer science.
 
 ## This Website
 
-Made with [ssg](https://www.romanzolotarev.com/ssg.html), self-hosted on a Raspberry Pi running Ubuntu Server.
+Made with [ssg](https://www.romanzolotarev.com/ssg.html), self-hosted on a Raspberry Pi.
