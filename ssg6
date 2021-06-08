@@ -1,7 +1,5 @@
 #!/bin/sh -e
 #
-# Modified 2021 by Theo Henson <theodorehenson at protonmail dot com> 
-#
 # https://rgz.ee/bin/ssg6
 # Copyright 2018-2019 Roman Zolotarev <hi@romanzolotarev.com>
 #
@@ -143,7 +141,7 @@ list_files() {
 }
 
 list_dependant_files() {
-	e="\\( -name '*.html' -o -name '*.md' -o -name '*.css' -o -name '*.js' -o -name '*.ico' -o -name '*.txt' -o -name '*.png' \\)"
+	e="\\( -name '*.html' -o -name '*.md' -o -name '*.css' -o -name '*.js' \\)"
 	cd "$1" && eval "find . -type f ! -name '.' ! -path '*/_*' $IGNORE $e"
 }
 
@@ -152,7 +150,7 @@ list_newer_files() {
 }
 
 has_partials() {
-	grep -qE '^./_.*\.html$|^./_.*\.js$|^./_.*\.css$|^./_.*\.ico$|^./_.*\.txt$|^./_.*\.png$'
+	grep -qE '^./_.*\.html$|^./_.*\.js$|^./_.*\.css$'
 }
 
 list_affected_files() {

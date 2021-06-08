@@ -1,3 +1,3 @@
 # Theo Henson's Website
 
-This is my personal website, created with a static site generator called [ssg](https://www.romanzolotarev.com/ssg.html) (the version in this repository has been modified slightly).
+This is my personal website, created with a static site generator called [ssg](https://www.romanzolotarev.com/ssg.html).
