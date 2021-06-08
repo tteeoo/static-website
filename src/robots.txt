@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://www.theohenson.com/sitemap.xml
