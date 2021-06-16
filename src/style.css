@@ -1,6 +1,6 @@
 body {
 	line-height: 1.5em;
-	font-family: monospace;
+	font-family: serif;
 	color: #333;
 	background-color: #fafafa;
 	margin-bottom: 64px;
@@ -23,6 +23,8 @@ h2 {
 pre {
 	background-color: #ddd;
 	padding: 8px;
+	white-space: pre-wrap;
+	line-height: 1.5em;
 }
 
 code {
@@ -31,6 +33,7 @@ code {
 
 nav {
 	padding: 16px;
+	padding-left: 0;
 	margin-top: 32px;
 }
 
@@ -40,7 +43,7 @@ nav {
 }
 
 #wrapper {
-	max-width: 800px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 16px;
 	display: flex;
@@ -54,10 +57,10 @@ nav {
 	border-left: solid #555 1px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
 	nav {
 		padding: 8px;
-		margin-top: none;
+		margin-top: 0;
 		margin-bottom: 8px;
 	}
 

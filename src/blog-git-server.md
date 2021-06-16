@@ -1,4 +1,4 @@
-# Creating a Self-Hosted Git Server With a Simple Front-End 
+# Creating a Self-Hosted Git Server
 
 by Theo Henson — 2021-06-08
 
