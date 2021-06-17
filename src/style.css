@@ -34,7 +34,7 @@ code {
 nav {
 	padding: 16px;
 	padding-left: 0;
-	margin-top: 32px;
+	margin-top: 24px;
 }
 
 .nav-link {
@@ -53,7 +53,7 @@ nav {
 }
 
 #content {
-	padding: 32px;
+	padding: 16px 32px;
 	border-left: solid #555 1px;
 }
 

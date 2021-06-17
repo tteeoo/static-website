@@ -1,5 +1,5 @@
 title = Theo Henson
-url = https://www
+url = https://theohenson.com
 
 build: dst
 	./ssg6 src dst "${title}" "${url}"
