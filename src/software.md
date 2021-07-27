@@ -1,13 +1,13 @@
 # Software
 
-I encourage the use and development of free and open-source software.
+I encourage the use and development of [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
 ## Used By Me
 
 ### Operating system: [Artix Linux](https://artixlinux.org/)
 
 A derivative GNU/Linux distribution of Arch Linux but without systemd.
-I don't dislike systemd, I just decided to try something different.
+I don't particularly dislike systemd, I just decided to try something different.
 
 ### Text editor: [Neovim](https://neovim.io/)
 
@@ -21,7 +21,7 @@ A minimal (less than 2000 lines of C) [tiling window manager](https://en.wikiped
 
 In my spare time I like to write software. I think programming is a great hobby.
 It's like building machines, except you don't need to deal with the unreliable
-and expensive nature of physical materials. Below are some featured projects of mine.
+and expensive nature of physical materials.
 
-Most of it can be found on [GitHub](https://github.com/tteeoo), and some on my [personal Git server](https://git.theohenson.com).
-In the future I will likely post some of things I have made on this website.
+Most of my software can be found on [GitHub](https://github.com/tteeoo), and some on my [personal Git server](https://git.theohenson.com).
+In the future I will likely post some of the things I have made on this website.
