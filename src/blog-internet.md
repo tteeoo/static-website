@@ -52,13 +52,23 @@ On the surface it's not so bad, but in practice it often makes websites unbearab
 Take the recipe example: search a recipe for something and the results you get will include people's life stories, unnecessarily wordy text, massive buttons to share the page on social media,
 large image files, and often on the same page, different recipes.
 These are all things that website creators are incentivized to include in their sites, and have become the status quo. (Notice that I consciously keep my website minimal.)
+Even for technical queries, if I search "change file attributes linux command" horribly bloated websites will come up,
+explaining what Linux is, what files are, what file attributes are, and finally, the single command I wanted,
+probably stored as an image meaning I can't copy/paste it.
 As the most prolific application of the Internet, the Web is particularly disappointing.
+Already I have shown a fundamental problem that we haven't solved yet: how do we organize all of our public information?
+Since clearly, modern search engines leave much to be desired.
 
 Another key issue with the Internet is that the people who use it aren't inspired enough.
-In short, they aren't tech savvy enough to see or care about its problems, and also don't realize its potential.
+In short, they aren't apt to see or care about its problems.
 There isn't enough of a demand for the paradigm-shifting applications which I believe are possible.
-We will never achieve a Star Trek-like future if people don't change.
-I know that not everyone wants a Star Trek future, but I certainly do.
+We will never achieve a Star Trek-like future if people don't change. (I know that not everyone wants a Star Trek future, but I certainly do.)
 How do we solve this? You might jump to education, although I think the matter is deeper than that: our culture needs to change.
+Wikipedia is one of the greatest applications of the Internet, but people don't see it as such.
+We have access to so much more information than we did just thirty years ago, but it seems like no one cares.
+The sad reality: people are disappointing. People look at the Internet and see news and social media, not its potential.
+They overlook how much of an innovation it is, and the things it brings to the table concerning our society's future.
+Will our culture towards technology ever change?
+A pessimist might say no, but if we act that way then we will guarantee that nothing changes, even if there's a chance that things could.
 
-Am I being too idealistic? Maybe, but does that mean we shouldn't try to make the Internet a more inspired place? I think not.
+Am I being too idealist or opinionated? Maybe, but does that mean we shouldn't try to make the Internet a more inspired place? I think not.
