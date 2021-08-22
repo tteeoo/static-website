@@ -5,7 +5,7 @@ url = https://theohenson.com
 
 build: dst
 	./ssg6 src dst "${title}" "${url}"
-	./atom.py
+	./feeds.py
 dst:
 	mkdir dst
 clean:
