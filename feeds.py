@@ -3,6 +3,7 @@
 import os
 import subprocess
 from datetime import datetime
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 fg = FeedGenerator()
@@ -19,9 +20,14 @@ for post in [i for i in os.listdir('./src/') if 'blog-' in i]:
     fe.guid('https://theohenson.com/'+html, permalink=True)
     fe.link(href='https://theohenson.com/'+html)
     fe.author(name='Theo Henson', email='theodorehenson@protonmail.com')
-    with open('./src/'+post, 'r') as f:
-        fe.title(f.readline().strip()[2:])
-        fe.description(f.read(), isSummary=False)
+    soup = None
+    with open('./dst/'+html, 'r') as f:
+        soup = BeautifulSoup(f.read(), 'html.parser')
+    fe.title(soup.find_all('h1')[0].string)
+    fe.content(
+        ''.join([str(i) for i in soup.find(id='content').contents]),
+        type='CDATA'
+    )
     fe.updated(subprocess.check_output(['git', 'log', '-1', '--pretty=%cI', './src/'+post]).decode('utf-8').strip())
     fe.published(subprocess.check_output(['git', 'log', '-1', '--pretty=%cI', './src/'+post]).decode('utf-8').strip())
 
