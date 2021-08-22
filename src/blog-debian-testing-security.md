@@ -11,9 +11,11 @@ There's one problem: security updates take extra time to reach Debian Testing, d
 This isn't too big of a deal for most desktop users, but it is certainly good practice to configure them as I do below.
 
 This method involves:
+
 1. adding the unstable and experimental repositories to the package manager's sources (while making testing have a higher priority)
 2. automatically running a script which checks for security vulnerabilities from those repositories whenever you run `apt update`
 3. prioritizing the installation of packages which fix those updates
+ 
 which in effect installs security updates from unstable/experimental, while keeping everything else on testing.
 
 The Debian wiki links to a [forum thread](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725934) on how to do this, which this post is based on.
