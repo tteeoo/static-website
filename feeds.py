@@ -2,6 +2,7 @@
 
 import os
 import subprocess
+from copy import copy
 from datetime import datetime
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
@@ -11,7 +12,6 @@ fg.id('https://theohenson.com/blog.html')
 fg.title('Theo Henson\'s blog')
 fg.subtitle('I write about whatever I’m interested in')
 fg.author(name='Theo Henson', email='theodorehenson@protonmail.com')
-fg.link(href='https://theohenson.com/rss.xml', rel='self')
 fg.language('en')
 
 for post in [i for i in os.listdir('./src/') if 'blog-' in i]:
@@ -31,7 +31,11 @@ for post in [i for i in os.listdir('./src/') if 'blog-' in i]:
     fe.updated(subprocess.check_output(['git', 'log', '-1', '--pretty=%cI', './src/'+post]).decode('utf-8').strip())
     fe.published(subprocess.check_output(['git', 'log', '-1', '--pretty=%cI', './src/'+post]).decode('utf-8').strip())
 
+fga = copy(fg)
+with open('./dst/atom.xml', 'wb') as f:
+    fga.link(href='https://theohenson.com/atom.xml', rel='self')
+    f.write(fga.atom_str(pretty=True))
+
+fg.link(href='https://theohenson.com/rss.xml', rel='self')
 with open('./dst/rss.xml', 'wb') as f:
     f.write(fg.rss_str(pretty=True))
-with open('./dst/atom.xml', 'wb') as f:
-    f.write(fg.atom_str(pretty=True))
