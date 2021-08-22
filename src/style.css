@@ -1,13 +1,16 @@
 body {
 	line-height: 1.5em;
-	font-family: serif;
+	font-family: sans-serif;
 	color: #333;
-	background-color: #fafafa;
+	background-color: #fff;
 	margin-bottom: 64px;
 }
 
 a {
-	color: #08d;
+	color: #0645ad;
+}
+a:visited {
+	color: #0b0080;
 }
 
 h1 {
@@ -21,14 +24,19 @@ h2 {
 }
 
 pre {
-	background-color: #ddd;
+	color: #ebdbb2;
+	background-color: #dadada;
 	padding: 8px;
 	white-space: pre-wrap;
 	line-height: 1.5em;
+	border-radius: 2px;
 }
 
 code {
-	background-color: #ddd;
+	color: #111;
+	background-color: #dadada;
+	padding: 2px;
+	border-radius: 2px;
 }
 
 nav {

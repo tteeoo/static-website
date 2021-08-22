@@ -1,17 +1,19 @@
 # Software
 
-I encourage the use and development of [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software).
-
 ## Used By Me
 
-### Operating system: [Artix Linux](https://artixlinux.org/)
+I like to use simple, [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) software.
+Here is some I use which I find particularly agreeable.
 
-A derivative GNU/Linux distribution of Arch Linux but without systemd.
-I don't particularly dislike systemd, I just decided to try something different.
+### Operating system: [Debian](https://debian.org/)
+
+The Universal operating system.
+Perhaps the most prolific and flexible GNU/Linux distribution.
 
 ### Text editor: [Neovim](https://neovim.io/)
 
-Neovim is great for writing code and prose. It is essentially a more extensible fork of Vim.
+Neovim is great for writing both code and prose.
+It is essentially a more extensible and polished fork of Vim.
 
 ### Graphical environment: [dwm](https://dwm.suckless.org/)
 

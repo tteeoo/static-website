@@ -1,6 +1,8 @@
 # Blog
 
-Here is a list of blog posts I've written:
+I plan to write posts about whatever I'm interested in, so don't expect any particular topic.
+General themes may include technology (probably centered around programming and Linux), and philosophy.
 
+* 2021-08-21: [Configuring Debian Testing With Security Updates](blog-debian-testing-security.html)
 * 2021-07-27: [The Disappointment of the Internet](blog-internet.html)
 * 2021-06-08: [Creating a Self-Hosted Git Server](blog-git-server.html)
