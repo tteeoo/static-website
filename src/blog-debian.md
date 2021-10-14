@@ -2,6 +2,14 @@
 
 by Theo Henson — 2021-08-21
 
+---
+
+*2021-10-14:* I am only releasing this article now because I'm unsure of how stable this setup actually is.
+It has been working fine for me so far, but I've seen some people say that something like this is dysfunctional, and will break your system.
+Use this guide at your own risk. I'm treating it just as a log of what I did to configure my computer this way.
+
+---
+
 Recently, I switched from running [Artix Linux](https://artixlinux.org/) to [Debian](https://debian.org/) on my main desktop machine.
 While I still want new packages, I like Debian more than Artix (as a project and for how it works),
 hence [Debian Testing](https://wiki.debian.org/DebianTesting)—essentially rolling release Debian:
