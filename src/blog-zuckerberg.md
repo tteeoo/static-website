@@ -2,9 +2,9 @@
 
 by Theo Henson — 2021-10-14
 
-The boy was born in 1984 (the year that the thing named after the apple was released, and coincidentally, the setting of a poignant novel) in a suburb of the Big City.
+The boy was born in 1984 (the year that the thing named after the apple was released) in a suburb of the Big City.
 He afforded a lucky childhood in a typical way: excelling at the various academies he attended, instilling pride in his family.
-Enamored with some normal things, he liked the movies, but also enjoyed mathematics and ancient literatures.
+Enamored with some normal things, he liked the movies, but also enjoyed mathematics and ancient literature.
 Most of all, though, it was the computer that occupied his time.
 He used it to build machines—machines that didn't have motors or wires, rather loops and logic: programs.
 Programs that talked to each other, played games and music, all without needing physical parts replaced or repaired—they were beautiful machines.
