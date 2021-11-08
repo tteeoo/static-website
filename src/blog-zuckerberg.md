@@ -9,7 +9,7 @@ Most of all, though, it was the computer that occupied his time.
 He used it to build machines—machines that didn't have motors or wires, rather loops and logic: programs.
 Programs that talked to each other, played games and music, all without needing physical parts replaced or repaired—they were beautiful machines.
 
-Eventually, the boy lived up to the grandeur of his youth and was accepted to the University (the University where that president, and the other one—as well as the software guy had gone).
+Eventually, the boy lived up to the grandeur of his youth and was accepted to the University (the same university where that president—and the other one—had gone).
 He made more programs there, just for fun. After all, it was what his classes were about.
 These programs, though, dealt with people, and people used them too.
 They were used enough that he started to take things seriously: he made a company.
