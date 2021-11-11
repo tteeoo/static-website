@@ -4,8 +4,9 @@ by Theo Henson — 2021-11-11
 
 ### What is a nation? Why do they exist? What is their purpose?
 
-The difficulty of these questions is thus: the responses you get will change based on which nation you ask.
+The difficulty of these questions is thus: the responses given will change based on the nation asked.
 One is quick to realize that they do not have easy, direct answers.
+
 Historically, nations have started as small agricultural communities, perhaps forming alliances to increase their influence.
 These communities occasionally developed into larger empires like those of Rome or Britain.
 In the past couple of thousand years the growth of these empires has been curtailed by social change and technological limitations:
@@ -16,8 +17,9 @@ the nation-state, where within a well-defined boundary you can find Nationish pe
 
 So what's next? How will—or should—the most important way people are organized (their nation) evolve?
 The answer is global; the change from a community, to an empire, to a state, to a united, world government is a natural progression.
-As technology progresses, new types of government become possible. The current way most countries work would not be possible without modern, instant communication—
-Rome could not exist before bronze, Britain not before boats. The potential for a global government may not yet exist, but eventually it will, society permitting.
+As technology progresses, new types of government become possible.
+The current way most countries work would not be possible without modern, instant communication—Rome could not exist before bronze,
+Britain not before boats. The potential for a global government may not yet exist, but eventually it will, society permitting.
 
 ### Why unify
 
