@@ -2,13 +2,13 @@
 
 Welcome to Theo Henson's website.
 
-Last modified 2021-08-21.
+Last modified 2021-12-01.
 
 ## About
 
 ### Me
 
-I am a high school student with an interest in computer science.
+I am a high school student interested in computer science, mathematics, language, and music.
 
 * Email: theodorehenson "at" protonmail "dot" com
 * [GPG public key](https://dir.theohenson.com/file/key.asc)
@@ -18,4 +18,4 @@ I am a high school student with an interest in computer science.
 
 Made with [ssg](https://www.romanzolotarev.com/ssg.html) (a static site generator written in POSIX shell), and self-hosted on a Raspberry Pi.
 
-All content is licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+All content is licensed as [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated.

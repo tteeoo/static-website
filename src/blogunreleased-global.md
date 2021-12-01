@@ -2,7 +2,7 @@
 
 by Theo Henson — 2021-12-01
 
-### What is a nation? Why do they exist? What is its purpose?
+### What is a nation? Why do they exist?
 
 The difficulty of these questions is thus: the responses given will change based on the nation asked.
 One is quick to realize that they do not have easy, direct answers.
