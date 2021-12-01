@@ -15,9 +15,9 @@ The world today is one single civilization—if not, it is certainly converging 
 Historically, nations have started as small agricultural communities, perhaps forming alliances to increase their influence.
 These interlinking communities occasionally developed into larger empires, like those of Rome or Britain.
 In the past couple thousand years, the growth of these empires has been curtailed by social change and technological limitation:
-Rome lacked the ability to effectively communicate, and was therefore unable to control the large swathes of land it controlled;
+Rome lacked the ability to effectively communicate, and was therefore unable to operate the large swathes of land it controlled;
 Britain fractured when its colonies eventually yearned for freeing independence.
-In modern times (the past few hundred years), a new kind of nation has cemented itself:
+In modern times, a new kind of nation has cemented itself:
 the nation-state, where within a well-defined boundary you can find Nationish people who speak the Nationish language and share a Nationish culture.
 This doesn't seem very novel, but throughout history, the governmental organization of similar peoples has never been so centralized—compare the Kievan Rus' to Russia, or feudal Europe to the EU.
 
