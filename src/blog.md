@@ -2,6 +2,7 @@
 
 Syndication feed: [RSS](rss.xml)/[Atom](atom.xml)
 
+* 2021-12-01: [On Reform](blog-reform.html) by Samuel Farley (guest writer)
 * 2021-12-01: [Book Reviews](blog-book-reviews.html)
 * 2021-10-14: [Zuckerberg](blog-zuckerberg.html)
 * 2021-08-21: [Configuring Debian Testing With Security Updates](blog-debian.html)
