@@ -1,7 +1,7 @@
 # On Reform
 ### Inspired by Book II of *The Social Contract*
 
-by Samuel Farley — 2021-12-01
+by Samuel Farley (guest writer) — 2021-12-01
 
 Reform.
 It is perhaps the most used buzzword of government and politics.
