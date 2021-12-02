@@ -8,6 +8,8 @@ In the mean time, here are my thoughts on a few I've finished recently.
 Now that I'm going to be thinking about writing reviews, I should have more to say about future books;
 mind the brevity of these.
 
+Rated out of 5 stars.
+
 #### *Neuromancer* by William Gibson
 
 A large influence in its corner of science fiction.
