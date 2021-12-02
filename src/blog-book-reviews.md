@@ -15,7 +15,7 @@ Rated out of 5 stars.
 A large influence in its corner of science fiction.
 
 The book felt psychedelic—half the time you didn't know exactly what was happening or why, but eventually you got the point.
-I like that feeling if it's done right (which I think it does), though another reader might not.
+I like that disoriented feeling if it's done right (which I think it does), though another reader might not.
 Quite frequently I encountered paragraphs that straddled a line between being superbly poetic or extremely cheesy—maybe they were both?
 
 There wasn't much character development, but it didn't matter to me. The expansive world-building more than made up for it (as is typical with sci-fi).
