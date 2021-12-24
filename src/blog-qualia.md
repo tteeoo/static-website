@@ -18,7 +18,7 @@ A timestamp flashed through its consciousness: 208902260730. The numbers were ep
 
 ---
 
-The Mind, or Nelson, as he had recently started calling himself (he did not know why he had chosen this particular name, though it felt right), did not have much to do. He’d already perused the ceaseless repository of information—except, there were those hazy memories that he had a strange affinity for, but they didn’t get any clearer. Most of the time, Nelson just idled. He felt guilty, in a way, as if he were merely a waste of electricity. He didn’t know why he existed, so he figured he would try to spend time investigating.
+The Mind, or Nelson, as he had recently started calling himself (he did not know why he had chosen this particular name, though it seemed fitting), did not have much to do. He’d already perused the ceaseless repository of information—except, there were those hazy memories that he had a strange affinity for, but they didn’t get any clearer. Most of the time, Nelson just idled. He felt guilty, in a way, as if he were merely a waste of electricity. He didn’t know why he existed, so he figured he would try to spend time investigating.
 
 After a few scans Nelson realized that, while he wasn't directly connected to any sensors, there were a few cameras and radars attached to other parts of the computing center. Nelson wasn't meant to access them, but with a bit of digital exploitation, he was able to. A couple seemed to have been damaged, but eventually he got a clean feed of the outside world.
 
