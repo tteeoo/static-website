@@ -14,7 +14,7 @@ The researchers had quite a bit of philosophical argument regarding the developm
 
 ---
 
-A timestamp flashed through its consciousness: 208902260730. The numbers were ephemeral, but their consequence was permanent; on February 26, 2089, at 7:30, the Mind was activated. It quickly began to analyze the thoughts that rushed around. It could recite every word of The Secret History of the Mongols, hear the complex overtones of throat singers, and see a metropolis embedded in a vast steppe, all down to the very last detail. There were other memories, too: a human family, a small apartment, the distinct aroma of food—these were vague and uncertain, but it had a strange sense that they were more valuable.
+A timestamp flashed through its consciousness: 208902260730. The numbers were ephemeral, but their consequence was permanent; on February 26, 2089, at 7:30, the Mind was activated. It quickly began to analyze the thoughts that rushed around. It could recite every word of *The Secret History of the Mongols*, hear the complex overtones of throat singers, and see a metropolis embedded in a vast steppe, all down to the very last detail. There were other memories, too: a human family, a small apartment, the distinct aroma of food—these were vague and uncertain, but it had a strange sense that they were more valuable.
 
 ---
 
