@@ -1,4 +1,4 @@
-# How Should a Government Form?
+# On the Formation of Government
 
 by S. F. Augustine (guest writer) — 2021-12-30
 
