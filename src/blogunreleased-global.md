@@ -2,9 +2,9 @@
 
 by Theo Henson — 2022-1-
 
-### What is a nation? Why do they exist?
+### The Nation
 
-Theses questions are difficult because their responses will change based on the nation asked.
+What is a nation? Why do they exist? These questions are difficult because their responses will change based on the nation asked.
 One is quick to realize that they do not have easy, direct answers.
 
 A "nation", as I will use it, is simply a group of people with a historically shared identity, often associated with a common government.
@@ -25,7 +25,7 @@ Rome could not exist before bronze, Britain not before boats.
 Large, modern countries like China or the US could not exist without high-speed communication.
 The potential for a global government might not currently exist, but eventually it will, society permitting.
 
-### Why unify
+### Why Unify
 
 A goal of any advanced civilization should be to sort itself out—to create a desirable governing system.
 The world today is one single civilization—if not, it is certainly converging into one. The current governing systems do not reflect this.
@@ -42,5 +42,10 @@ While it may be true that these empires controlled large amounts of land, contai
 Thinking beyond the essentially arbitrary borders of land, the Internet, for example, allows people to instantly communicate and collaborate,
 regardless of their nation. Obviously, legal unification will happen over a long time-scale, but we're currently closer than ever.
 
-### The structure of such a government
+### Limiting Factors
 
+// technology, culture
+
+### The Structure of Such a Government
+
+// federalism, computerized
