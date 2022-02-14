@@ -2,7 +2,6 @@
 
 by Theo Henson — 2022-02-14
 
-```
 The snow fell outside while I
 Deliberated my indoor goals.
 The tell-a-vision buzzed across
@@ -18,18 +17,17 @@ Goats and Tigers ran around
 The screen if I cared to watch.
 Too busy, I'm wasting time
 Playing Time - Pink Floyd.
-The fake dilema,
+The fake dilemma,
 Constructed in my head,
 Awaits.
 I know not to not know,
 learning, the endless curricula.
 Is data or are?
 The real questions, these are.
-Modernist cinderblocks tower into oblivion
+Modernist cinder blocks tower into oblivion
 likeastreamofconsciousnesstoooptmistictofall.
 Or to fail?
 There aren't many options but to do what
 There is.
 ¿Or hay?
 Hey—I didn't know that.
-```
