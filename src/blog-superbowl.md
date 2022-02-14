@@ -1,6 +1,6 @@
 # A Superbowl of Fairly Irrelevant Competitors
 
-by Theo Henson — 2022-02-14
+by Theo Henson — 2022-02-13
 
 ```
 The snow fell outside while I
