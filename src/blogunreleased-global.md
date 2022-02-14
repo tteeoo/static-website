@@ -1,6 +1,6 @@
 # On Global Government
 
-by Theo Henson — 2022-1-
+by Theo Henson — 2022-01-
 
 ### The Nation
 
