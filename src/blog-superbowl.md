@@ -2,6 +2,7 @@
 
 by Theo Henson — 2022-02-14
 
+```
 The snow fell outside while I
 Deliberated my indoor goals.
 The tell-a-vision buzzed across
@@ -31,3 +32,4 @@ There aren't many options but to do what
 There is.
 ¿Or hay?
 Hey—I didn't know that.
+```
