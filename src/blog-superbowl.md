@@ -6,7 +6,7 @@ by Theo Henson — 2022-02-13
 The snow fell outside while I
 Deliberated my indoor goals.
 The tell-a-vision buzzed across
-my room; it bothers me.
+My room; it bothers me.
 That vidio (visual radio) showed
 The ballgame 56, 23 to 20 in LA.
 I stood there for a minute and ate
@@ -22,7 +22,7 @@ The fake dilemma,
 Constructed in my head,
 Awaits.
 I know not to not know,
-learning, the endless curricula.
+Learning, the endless curricula.
 Is data or are?
 The real questions, these are.
 Modernist cinder blocks tower into oblivion
@@ -31,5 +31,5 @@ Or to fail?
 There aren't many options but to do what
 There is.
 ¿Or hay?
-Hey—I didn't know that.
+Hey, I didn't know that.
 ```
