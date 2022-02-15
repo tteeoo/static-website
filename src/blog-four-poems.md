@@ -110,6 +110,7 @@ Pallies, ally? Gal, shall I? Man, damn it!
 Apples break grim secrets; quietly cry it.
 It's silent, wouldn't you say?
 Decir, ir, or stop? Fear makes the cleaner mop.
+
 Grope the luxury on your stroll.
 Think of the bugs you see headed for the hole.
 Bowl, no water, don't tread on her.
@@ -130,6 +131,7 @@ How does it feel, freak?
 A dejected projector gestates your lecture.
 Heard this, you learned pig?
 Wear a wig, looks better.
+
 The goal's reached, stopwatch at two o'clock.
 Glock cocked, unblock it. 
 Bigger war, bigger world, you heard?
