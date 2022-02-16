@@ -81,6 +81,7 @@ They never make anything/everything for free.
 An architect draws her line,
 Diagonal, angled as the pines' pear.
 Freestanding structures jump/fall into the air.
+
 The Desert is a place I've been,
 Rather drab and full of sand.
 Armies mold/place bricks by hand.
@@ -96,7 +97,7 @@ Since 'twas accidentally a city,
 And it doesn't look very pretty.
 ```
 
-# Your Culmination
+### Your Culmination
 
 ```
 Velvet Roosevelt invents tents for your backyard.
@@ -105,7 +106,7 @@ Post-war dream makes cities gleam of
 Not talling, sprawling—Don't like it?
 Pout or shout, but Ford's motorcar yearns for hairpin turns.
 Bike lanes steal real estate from Main Street.
-Oil makes motorcar go;
+Gas makes poor motorcar go;
 Only a Devil could shove it.
 
 Who are you to build here?
@@ -113,7 +114,7 @@ Who are you to build here?
 It's cornucopic in the New Cornwall tropics.
 Something-something like
 "The grass is always greener on the other side of my picket fence."
-And yet, still it demands my defense.
+And yet, it still demands me whence.
 New Amsterdam, Old York,
 "Two peas in a pod; two tines on one fork."
 
@@ -130,7 +131,7 @@ Until The Next Big Thing, TM.
 Terse complaints come from saints singing by hand:
 "The echo of a distant time comes willowing across the sand"
 —Oh wait, wrong song, guess I forgot to hit record.
-Never not take out your camera;
+Never neglect to take out your camera;
 Be always ready, case one slips the gourd.
 
 "Urban planning's the worst thing since that quarterback I hate."
