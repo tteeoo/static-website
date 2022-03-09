@@ -13,7 +13,7 @@ Ruminated, rated, and mused
 Competitive biologists seek unlabeled tree frogs.
 Disillusioned ex-linguists speak non-prescribed word-wrongs.
 He found what was never before,
-Not once asked why he wanted more
+Not once asked her why he wanted 
 —Now who lies on the floor?
 ```
 
