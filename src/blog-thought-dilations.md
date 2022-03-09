@@ -128,7 +128,7 @@ Will you sell your drum set in pieces?
 It's simple: I just need some cymbals.
 Even nimble fingers sew with thimbles, though.
 Whoa! I never knew you needed that to make hats.
-Mercury's gone beserk, you see
+Mercury's gone berserk, you see,
 So every drop counts, fluid ounce.
 "Pounce!" goes the cat to the mouse;
 If only there were one for louse.
