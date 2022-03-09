@@ -122,6 +122,37 @@ But strangerisk rips van candy out of child's handy hand, man
 You need a nonsequiturtestur
 ```
 
+### Usonian Clothing
+```
+Will you sell your drum set in pieces?
+It's simple: I just need some cymbals.
+Even nimble fingers sew with thimbles, though.
+Whoa! I never knew you needed that to make hats.
+Mercury's gone beserk, you see
+So every drop counts, fluid ounce.
+"Pounce!" goes the cat to the mouse;
+If only there were one for louse.
+Get dressed, darling, protest: baseball's Spalding.
+Lose your hair, hope it's not balding.
+Help! I don't want to wear a glove.
+Pigeons and doves are the same, love.
+Do tennis menace pendants flow in the wind?
+Or is that only for the flag thing.
+Pledge allegiance every morning—boring.
+Touring with the band's not the same as heart-placed hand.
+Do you really love it? Or do they just shove it.
+Boom! Drum fill.
+Don't spill from the bucket on Jack-and-Jill hill.
+Boom! Oil drum hit.
+March around the ick or you'll get the bad end of the stick.
+A yellow brick road, painted with gold, showed
+No one to happiness ever,
+Because we're still in Kansas.
+Can't escape corn-filled ranches.
+At least we won't starve,
+Though we've got to wear some rather drab garb.
+```
+
 ### Montpelier Dentist
 ```
 When talking to high-fructose-born syrup
