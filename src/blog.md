@@ -2,7 +2,7 @@
 
 Syndication feed: [RSS](rss.xml)/[Atom](atom.xml)
 
-* 2022-03-08: [Compilation of Though-Dilation: Poems](blog-thought-dilations.html)
+* 2022-03-08: [Compilation of Thought-Dilation: Poems](blog-thought-dilations.html)
 * 2022-02-15: [Three Poems](blog-three-poems.html)
 * 2022-01-12: [Book Review: *The Metamorphosis of Prime Intellect*](blog-mopi.html)
 * 2021-12-30: [On the Formation of Government](blog-govt-formation.html) by S. F. Augustine
