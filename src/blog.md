@@ -2,6 +2,7 @@
 
 Syndication feed: [RSS](rss.xml)/[Atom](atom.xml)
 
+* 2022-03-22: [Where did the Time go: Six More Poems](blog-where-did-the-time-go.html)
 * 2022-03-08: [Compilation of Thought-Dilation: Poems](blog-thought-dilations.html)
 * 2022-02-15: [Three Poems](blog-three-poems.html)
 * 2022-01-12: [Book Review: *The Metamorphosis of Prime Intellect*](blog-mopi.html)
