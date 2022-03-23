@@ -55,7 +55,7 @@ pouring the two percent into the baked corn flakes saving the day
 and in a weird way you're glad since Cheerios make cheery not dreary or bad.
 ```
 
-### Make Cavendish
+### Make Cavendish (And Corresponding Diagram)
 
 ```
 Flying banana factory in space
@@ -68,6 +68,8 @@ Satellite
 It hurts
 Work
 ```
+
+![Corresponding Diagram](make-cavendish.jpg)
 
 ### 3-Act Trip
 

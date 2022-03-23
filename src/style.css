@@ -6,6 +6,13 @@ body {
 	margin-bottom: 64px;
 }
 
+img {
+	margin: auto;
+	width: 30%;
+	height: auto;
+	display: block;
+}
+
 a {
 	color: #0645ad;
 }
