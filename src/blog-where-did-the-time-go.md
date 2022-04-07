@@ -1,8 +1,8 @@
-# Where did the Time go: Six More Poems
+# Where Did the Time Go: Poems
 
 by Theo Henson — 2022-03-22
 
-### Looking for the new Beat Generation
+### Looking for the New Beat Generation
 
 ```
 Dialectic electricity sparks a plethora of eccentrics
