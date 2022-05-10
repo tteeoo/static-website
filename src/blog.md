@@ -2,6 +2,7 @@
 
 Syndication feed: [RSS](rss.xml)/[Atom](atom.xml)
 
+* 2022-05-09: [Smart Fires: Poems](blog-smart-fires.html)
 * 2022-04-07: [Enforced Conformity: Poems](blog-enforced-conformity.html)
 * 2022-03-22: [Where Did the Time Go: Poems](blog-where-did-the-time-go.html)
 * 2022-03-08: [Compilation of Thought-Dilation: Poems](blog-thought-dilations.html)
