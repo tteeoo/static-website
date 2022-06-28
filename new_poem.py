@@ -37,7 +37,7 @@ fe.guid("https://theohenson.com/poems.html#"+ts, permalink=False)
 fe.link(href="https://theohenson.com/poems.html")
 fe.author(name="Theo Henson", email="theodorehenson@protonmail.com")
 fe.title("New poem(s) published")
-fe.content("Poems are published on a single rolling page at [https://theohenson.com/poems.html](https://theohenson.com/poems.html)")
+fe.content("Poems are published on a single rolling page at <a href=\"https://theohenson.com/poems.html\">theohenson.com/poems.html</a>", type="CDATA")
 fe.updated(ts)
 fe.published(ts)
 
