@@ -2,7 +2,9 @@
 
 Welcome to Theo Henson's website.
 
-Last modified 2021-12-01.
+Last modified 2022-06-27.
+
+Syndication feed: [RSS](rss.xml)/[Atom](atom.xml)
 
 ## About
 

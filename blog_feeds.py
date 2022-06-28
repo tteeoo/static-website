@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 fg = FeedGenerator()
-fg.id("https://theohenson.com/blog.html")
-fg.title("Theo Henson's blog")
+fg.id("https://theohenson.com/")
+fg.title("Theo Henson's blog and poems")
 fg.subtitle("Miscellaneous writings.")
 fg.author(name="Theo Henson", email="theodorehenson@protonmail.com")
 fg.language("en")
