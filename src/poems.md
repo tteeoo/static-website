@@ -1,5 +1,83 @@
 # Poems
 
+2023-01-17
+
+### Value Apparent in Persistence
+
+```
+All this time spent compounding,
+The crystal, linear, is conflicted:
+Choose to grow, dissatisfied?
+Or change ways, twisting?
+
+Left for fall, or to thrive,
+Quartz has oft been splitting.
+Next, to think, will it and Earth survive?
+Time's to tell, since thinking's hurting.
+
+With value apparent in persistence
+Like virtue from the fight,
+If known through Earth's insistence,
+Quartz will be alright.
+```
+
+### From July
+
+```
+The best feeling I've had since becoming
+              Hunter Thompson
+                     has been
+                   writing in delirium
+```
+
+### More Musing
+
+```
+An ideology:
+Art without context
+Relies on aesthetics
+Yet is there dichotomy?
+```
+
+### Still Telling
+
+```
+Subversive type sticks to sheets
+Taped to street trees
+Seen to seek tumbling so terrifying
+Tried to say something too striking
+So treated to satire
+Tumultuation sans transpire
+```
+
+### Radeke Garden
+
+```
+We happened upon the museum anticipating some,
+    but not all,
+    of its qualities.
+The foreshadowing  was there,
+    but not persuading,
+    in the threshold.
+Piece after piece,
+    we liked the art,
+    but circled something larger.
+A window looks out,
+    then a corner turns,
+    again and again.
+
+The courtyard was covered in leaves,
+    like snow,
+    from a great tree.
+When we found the exit,
+    or entrance,
+    we walked into this roofless room.
+So quiet,
+    as a piece of nature,
+    embedded into inhabitance.
+The architect was really thinking.
+```
+
 2022-06-27
 
 ### How Many?
