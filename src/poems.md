@@ -1,5 +1,110 @@
 # Poems
 
+2023-03-16
+
+### Grain Thoughts
+
+```
+Farmers have fought for different ideas on the plain
+The spiritual, tyrants, rebels, enslaved
+Do you ever wonder if they judge you?
+The ones before you, whose crop: the same?
+
+But under it all is a humble, human process
+That there is no thought worthy to overcome
+
+Our food will always surpass shame
+As all ideology succumbs
+To almighty rice on the plain
+```
+
+### Friend
+
+```
+To my Captain Walton's crew:
+We find the North Pole with ease;
+The Manzarek to my Morrison,
+We find Frankenstein and please
+The desire of an anchor falling
+Deep into the sea;
+The tide catches an unending plunge
+Like water, like family.
+```
+
+### Graduation
+
+```
+After film school,
+What's there to do?
+Besides become poets and fools,
+Shake trees and croon?
+
+I'm haunted by it, really:
+The uneasy tower
+That life's climbing freely.
+```
+
+### Unused Act I
+
+```
+With their homes now built,
+Miles, each other apart,
+Braving cold with rugged countenance,
+And the private having most importance:
+
+Frontiersmen's remorse
+
+For the carcasses littering the great field;
+For their hands that made bodies lay;
+For the blood needed to yield;
+For their abodes of corpse and clay.
+
+Frontiersmen's remorse
+
+And fail to placate their dungeons.
+Those dusty excuses for soul and heart
+Succumb to the muddied expanse between all on the plain.
+If only there were a way to right, to closen, what's lain.
+
+Frontiersmen's remorse
+
+As they march, each to a separate temple.
+Without the required, despised unification
+They walk from city to supposed savior upon the hill:
+A sad pride, when nothing compensates for desolation.
+```
+
+### Though of While Driving
+
+```
+What will be of these torn bits of paper in ten years?
+Each flake stained with past tears,
+It's a card with your name, written and ripped after I'd seen you the last time.
+The shards fall into a puddle dissolving, while ripples surround them:
+Formative; mine.
+```
+
+### Klaxon, at Nostalgia
+
+```
+You came out the door as I tried to step in
+I saw your eyes and realized within
+But couldn't put a finger on it
+My friend inquiring:
+"Are you in a band?"
+
+Yes, the one I tried to see last night
+Music one time, doors another
+I presumed there was room and found no tickets at the counter
+
+The saddest thought is that here, today, I wouldn't have made the connection
+Had my friend not asked the question
+
+Should I be more assertive?
+```
+
+---
+
 2023-01-17
 
 ### Value Apparent in Persistence
