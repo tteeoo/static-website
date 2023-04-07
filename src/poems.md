@@ -1,5 +1,54 @@
 # Poems
 
+2023-04-07
+
+### Ritual Pittsburgh
+
+```
+I can't wait to go to Pittsburgh next
+My ritual in a new context
+Some say St. Louis's the gateway to the west
+But my roaming, to Pittsburgh, I lay rest
+
+Ruminative Pittsburgh
+Formative Pittsburgh
+Exegetical Pittsburgh!
+
+This earthly journey so gestalt
+More than any cosmic destination
+It will satisfy my needs
+More than any mere sensation
+
+Do your bootheels wander anywhere but?
+```
+
+### Tasteless Fellow
+
+```
+You J. Reilly-type, you
+Sistine person, always
+Judging, never
+Smudging the lines. I
+Foresee your pretense, but
+Still cannot cope. Enough
+preparation will not come. Too much
+Exudes.
+```
+
+### Statement of Faith
+
+```
+I believe in the Romantic notion of self-personage
+They are here now, the thinking machines
+I bask in the humility of empowered flesh
+They establish a people clean of hassle
+I see others fail to break machines
+They are not fragile, and yet
+I keep my beliefs
+```
+
+---
+
 2023-03-16
 
 ### Grain Thoughts
