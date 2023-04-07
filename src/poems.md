@@ -64,7 +64,7 @@ That there is no thought worthy to overcome
 
 Our food will always surpass shame
 As all ideology succumbs
-To almighty rice on the plain
+To rice on the plain
 ```
 
 ### Friend
