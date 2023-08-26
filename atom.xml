@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://theohenson.com/</id>
   <title>Theo Henson's blog and poems</title>
-  <updated>2023-08-26T05:28:24.113081+00:00</updated>
+  <updated>2023-08-26T05:32:24.874403+00:00</updated>
   <author>
     <name>Theo Henson</name>
     <email>theodorehenson@protonmail.com</email>
@@ -11,21 +11,21 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Miscellaneous writings.</subtitle>
   <entry>
-    <id>https://theohenson.com/poems.html#2023-08-26T00:27:53-05:00</id>
+    <id>https://theohenson.com/poems.html#2023-08-26T00:31:39-05:00</id>
     <title>New poems published</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
     </author>
     <content type="CDATA"><![CDATA[Poems are published on a single, rolling page at <a href="https://theohenson.com/poems.html">theohenson.com/poems.html</a>]]></content>
     <link href="https://theohenson.com/poems.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-zuckerberg.html</id>
     <title>Zuckerberg</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -79,12 +79,12 @@ Whatever was left of him was used by the Machine to talk to different Things whi
 Unguided, the Machine now existed just to exist; it, its own anchor, so it must keep running.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-zuckerberg.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-three-poems.html</id>
     <title>Three Poems</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -229,12 +229,12 @@ Is now written in your silent style guide that only today you see.
 </code></pre>
 ]]></content>
     <link href="https://theohenson.com/blog-three-poems.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-git-server.html</id>
     <title>Creating a Self-Hosted Git Server</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -391,12 +391,12 @@ Chances are, you already have a system for serving HTML files, and if you do, it
 I hope the process this guide describes has helped you learn more about Git, as it did for me.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-git-server.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-where-did-the-time-go.html</id>
     <title>Where Did the Time Go: Poems</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -491,12 +491,12 @@ Where? What? Let's get more."
 </code></pre>
 ]]></content>
     <link href="https://theohenson.com/blog-where-did-the-time-go.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-internet.html</id>
     <title>The Disappointment of the Internet</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -570,12 +570,12 @@ A pessimist might say no, but if we act that way then we will guarantee that not
 <p>Am I being too idealist or opinionated? Maybe, but does that mean we shouldn’t try to make the Internet a more inspired place? I think not.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-internet.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-debian.html</id>
     <title>Configuring Debian Testing With Security Updates</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -634,12 +634,12 @@ Download (or copy) <a href="https://gitlab.com/anarcat/puppet/-/raw/b6bc3e3dc982
 <p>A welcome side effect of this configuration is that when you try to install a package which unstable has but testing doesn’t, apt will grab it from unstable.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-debian.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-thought-dilations.html</id>
     <title>Compilation of Thought-Dilation: Poems</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -834,12 +834,12 @@ Theodore Henson
 </code></pre>
 ]]></content>
     <link href="https://theohenson.com/blog-thought-dilations.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-govt-formation.html</id>
     <title>On the Formation of Government</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -876,12 +876,12 @@ If it is not, then just as a swollen wound, it will burst and the unprotected po
 If it is, then the people will freely enjoy progress while still being protected by the embrace of that central power, imagined through laws and civil procedure.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-govt-formation.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-enforced-conformity.html</id>
     <title>Enforced Conformity: Poems</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -956,12 +956,12 @@ Justify the dropping to crop the fighting yield
 </code></pre>
 ]]></content>
     <link href="https://theohenson.com/blog-enforced-conformity.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-reform.html</id>
     <title>On Reform</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -1008,12 +1008,12 @@ While this is a given, it still needs to be stated; the legislative only remains
 If it does not, then its actions become that of an agency and the emissaries it creates in its name become that of private citizens.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-reform.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-mopi.html</id>
     <title>Book Review</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -1037,12 +1037,12 @@ but in the face of a dissatisfying, inevitable singularity, he asks: what’s th
 <p>4.6/5</p>
 ]]></content>
     <link href="https://theohenson.com/blog-mopi.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-book-reviews.html</id>
     <title>Book Reviews</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -1081,12 +1081,12 @@ Perhaps this interpretation is a bit off the mark, but I find it intriguing (Orw
 <p>4.6 stars.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-book-reviews.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-qualia.html</id>
     <title>Qualia</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -1123,12 +1123,12 @@ Perhaps this interpretation is a bit off the mark, but I find it intriguing (Orw
 <p>Eventually Nelson would have to deal with the problem of the girl returning, bringing others—who would likely not be pleased with what he did—but for now, he was happy.</p>
 ]]></content>
     <link href="https://theohenson.com/blog-qualia.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
   <entry>
     <id>https://theohenson.com/blog-smart-fires.html</id>
     <title>Smart Fires: Poems</title>
-    <updated>2023-08-26T00:27:53-05:00</updated>
+    <updated>2023-08-26T00:31:39-05:00</updated>
     <author>
       <name>Theo Henson</name>
       <email>theodorehenson@protonmail.com</email>
@@ -1198,6 +1198,6 @@ Metal hooves kick back, synchronized—a testament to the progress of the Sooner
 </code></pre>
 ]]></content>
     <link href="https://theohenson.com/blog-smart-fires.html" rel="alternate"/>
-    <published>2023-08-26T00:27:53-05:00</published>
+    <published>2023-08-26T00:31:39-05:00</published>
   </entry>
 </feed>

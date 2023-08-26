@@ -8,14 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Aug 2023 05:28:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Aug 2023 05:32:24 +0000</lastBuildDate>
     <item>
       <title>New poems published</title>
       <link>https://theohenson.com/poems.html</link>
       <description><![CDATA[Poems are published on a single, rolling page at <a href="https://theohenson.com/poems.html">theohenson.com/poems.html</a>]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
-      <guid isPermaLink="false">https://theohenson.com/poems.html#2023-08-26T00:27:53-05:00</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <guid isPermaLink="false">https://theohenson.com/poems.html#2023-08-26T00:31:39-05:00</guid>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Zuckerberg</title>
@@ -70,7 +70,7 @@ Unguided, the Machine now existed just to exist; it, its own anchor, so it must 
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-zuckerberg.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Three Poems</title>
@@ -216,7 +216,7 @@ Is now written in your silent style guide that only today you see.
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-three-poems.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Creating a Self-Hosted Git Server</title>
@@ -374,7 +374,7 @@ I hope the process this guide describes has helped you learn more about Git, as 
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-git-server.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Where Did the Time Go: Poems</title>
@@ -470,7 +470,7 @@ Where? What? Let's get more."
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-where-did-the-time-go.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>The Disappointment of the Internet</title>
@@ -545,7 +545,7 @@ A pessimist might say no, but if we act that way then we will guarantee that not
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-internet.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Configuring Debian Testing With Security Updates</title>
@@ -605,7 +605,7 @@ Download (or copy) <a href="https://gitlab.com/anarcat/puppet/-/raw/b6bc3e3dc982
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-debian.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Compilation of Thought-Dilation: Poems</title>
@@ -801,7 +801,7 @@ Theodore Henson
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-thought-dilations.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>On the Formation of Government</title>
@@ -839,7 +839,7 @@ If it is, then the people will freely enjoy progress while still being protected
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-govt-formation.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Enforced Conformity: Poems</title>
@@ -915,7 +915,7 @@ Justify the dropping to crop the fighting yield
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-enforced-conformity.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>On Reform</title>
@@ -963,7 +963,7 @@ If it does not, then its actions become that of an agency and the emissaries it 
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-reform.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Book Review</title>
@@ -988,7 +988,7 @@ but in the face of a dissatisfying, inevitable singularity, he asks: what’s th
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-mopi.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Book Reviews</title>
@@ -1028,7 +1028,7 @@ Perhaps this interpretation is a bit off the mark, but I find it intriguing (Orw
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-book-reviews.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Qualia</title>
@@ -1066,7 +1066,7 @@ Perhaps this interpretation is a bit off the mark, but I find it intriguing (Orw
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-qualia.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
     <item>
       <title>Smart Fires: Poems</title>
@@ -1137,7 +1137,7 @@ Metal hooves kick back, synchronized—a testament to the progress of the Sooner
 ]]></description>
       <author>theodorehenson@protonmail.com (Theo Henson)</author>
       <guid isPermaLink="true">https://theohenson.com/blog-smart-fires.html</guid>
-      <pubDate>Sat, 26 Aug 2023 00:27:53 -0500</pubDate>
+      <pubDate>Sat, 26 Aug 2023 00:31:39 -0500</pubDate>
     </item>
   </channel>
 </rss>
