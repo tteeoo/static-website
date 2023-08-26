@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="author" content="Theo Henson" />
+<meta name="description" content="Theo Henson's personal website." />
+<meta name="keywords" content="Theo, Henson, Theodore, Personal, Website" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<title>Configuring Debian Testing With Security Updates &mdash; Theo Henson</title>
+</head>
+
+<body>
+<div id="wrapper">
+<nav>
+<a class="nav-link" href="index.html">Home</a>
+<a class="nav-link" href="poems.html">Poems</a>
+<a class="nav-link" href="blog.html">Blog</a>
+<a class="nav-link" href="software.html">Software</a>
+<a class="nav-link" href="elsewhere.html">Elsewhere</a>
+</nav>
+<div id="content">
+<h1 id="Configuring%20Debian%20Testing%20With%20Security%20Updates">Configuring Debian Testing With Security Updates</h1>
+
+<p>by Theo Henson — 2021-08-21</p>
+
+<hr/>
+
+<p><em>2021-10-14:</em> I am only releasing this article now because I&#8217;m unsure of how stable this setup actually is.
+It has been working fine for me so far, but I&#8217;ve seen some people say that something like this is dysfunctional, and will break your system.
+Use this guide at your own risk. I&#8217;m treating it just as a log of what I did to configure my computer this way.</p>
+
+<hr/>
+
+<p>Recently, I switched from running <a href="https://artixlinux.org/">Artix Linux</a> to <a href="https://debian.org/">Debian</a> on my main desktop machine.
+While I still want new packages, I like Debian more than Artix (as a project and for how it works),
+hence <a href="https://wiki.debian.org/DebianTesting">Debian Testing</a>—essentially rolling release Debian:
+much newer than the stable branch and more stable than the unstable branch—a comfortable middle-ground for an ex-Arch user.</p>
+
+<p>There&#8217;s one problem: security updates take extra time to reach Debian Testing, due to the way they are delivered.
+This isn&#8217;t too big of a deal for most desktop users, but it is certainly good practice to configure them as I do below.</p>
+
+<p>This method involves:</p>
+
+<ol>
+<li>adding the unstable and experimental repositories to the package manager&#8217;s sources (while making testing have a higher priority)</li>
+<li>automatically running a script which checks for security vulnerabilities from those repositories whenever you run <code>apt update</code></li>
+<li>prioritizing the installation of packages which fix those updates</li>
+</ol>
+
+<p>which in effect installs security updates from unstable&#47;experimental, while keeping everything else on testing.</p>
+
+<p>The Debian wiki links to a <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725934">forum thread</a> on how to do this, which this post is based on.</p>
+
+<hr/>
+
+<p>Edit <code>&#47;etc&#47;apt&#47;sources.list</code>, adding the following lines:</p>
+
+<pre><code>deb http:&#47;&#47;deb.debian.org&#47;debian&#47; unstable main non-free contrib
+deb-src http:&#47;&#47;deb.debian.org&#47;debian&#47; unstable main non-free contrib
+
+deb http:&#47;&#47;deb.debian.org&#47;debian&#47; experimental main non-free contrib
+deb-src http:&#47;&#47;deb.debian.org&#47;debian&#47; experimental main non-free contrib
+</code></pre>
+
+<p>Create <code>&#47;etc&#47;apt&#47;preferences.d&#47;00hybrid</code> to set the repositories&#8217; priority:</p>
+
+<pre><code>Package: *
+Pin: release a=testing
+Pin-Priority: 800
+
+Package: *
+Pin: release a=unstable
+Pin-Priority: 700
+
+Package: *
+Pin: release a=experimental
+Pin-Priority: 600
+</code></pre>
+
+<p>This will make sure that if you are installing a package that testing has, it will come from testing,
+even if unstable or experimental has a newer version.</p>
+
+<p>Next, we&#8217;ll make an exception to this priority for security updates.
+Install the <code>debsecan</code> package if you don&#8217;t already have it, which is used to search for fixed vulnerabilities.
+Download (or copy) <a href="https://gitlab.com/anarcat/puppet/-/raw/b6bc3e3dc982abcc4100143abb6594404b1241ac/site-modules/profile/files/debsecan-apt-priority">this script</a> (made by users on the aforementioned forum thread) to <code>&#47;usr&#47;local&#47;sbin&#47;debsecan-apt-priority</code> and make sure it is executable.</p>
+
+<p>Create the file <code>&#47;etc&#47;apt&#47;apt.conf.d&#47;00debsecan</code> and add this line to call the script when you run <code>apt update</code>:</p>
+
+<pre><code>APT::Update::Pre-Invoke { "&#47;usr&#47;local&#47;sbin&#47;debsecan-apt-priority"; };
+</code></pre>
+
+<p>A welcome side effect of this configuration is that when you try to install a package which unstable has but testing doesn&#8217;t, apt will grab it from unstable.</p>
+</div>
+</div>
+</body>
+</html>

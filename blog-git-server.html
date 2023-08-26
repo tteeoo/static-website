@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="author" content="Theo Henson" />
+<meta name="description" content="Theo Henson's personal website." />
+<meta name="keywords" content="Theo, Henson, Theodore, Personal, Website" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<title>Creating a Self-Hosted Git Server &mdash; Theo Henson</title>
+</head>
+
+<body>
+<div id="wrapper">
+<nav>
+<a class="nav-link" href="index.html">Home</a>
+<a class="nav-link" href="poems.html">Poems</a>
+<a class="nav-link" href="blog.html">Blog</a>
+<a class="nav-link" href="software.html">Software</a>
+<a class="nav-link" href="elsewhere.html">Elsewhere</a>
+</nav>
+<div id="content">
+<h1 id="Creating%20a%20Self-Hosted%20Git%20Server">Creating a Self-Hosted Git Server</h1>
+
+<p>by Theo Henson — 2021-06-08</p>
+
+<h2 id="Introduction">Introduction</h2>
+
+<p>This article will walk you through the process of setting up a Git server which can be pushed to, cloned from, and browsed, using a static site generator called <a href="https://codemadness.org/stagit.html">stagit</a> as a front-end.
+You can see my stagit-made site at <a href="https://git.theohenson.com">git.theohenson.com</a>.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li>Some sort of Linux server (it could be as simple as a Raspberry Pi, or a VPS).</li>
+<li>At least a basic understanding of Git and the shell.</li>
+<li>A way to serve HTML files.</li>
+</ul>
+
+<h2 id="Access%20via%20SSH">Access via SSH</h2>
+
+<p>Git offers a number of protocols to push, pull, and clone repositories. Basic functionality can be achieved simply with SSH.</p>
+
+<p>First, create a new <code>git</code> user on your server (do not give it root privileges).
+Set its home directory to <code>&#47;srv&#47;git</code>, which is where your repositories will be stored.
+Presuming that you are using SSH to interact with this server, you should already have it set up.
+If you use SSH keys for authentication, configure them for the <code>git</code> user now.</p>
+
+<p>Next, as the <code>git</code> user, initialize a new bare repository called &#8220;test&#8221; with <code>git init --bare test.git</code>.
+A &#8220;bare&#8221; repository is essentially a directory that only stores configuration data and file changes, but not files themselves (i.e., it lacks a working tree).
+The contents of the typical <code>.git</code> subdirectory are located in the top level of each bare repository.
+This is desirable for a server, as no one will be editing files on it.</p>
+
+<p>On your development computer, attempt to clone the repository with <code>git clone ssh:&#47;&#47;git@&#60;server ip&#62;&#47;srv&#47;git&#47;test.git</code>.
+Create a file, add it, commit, and you should be able to push.</p>
+
+<p>To recap what we&#8217;ve done so far, these commands should have been ran on your server:</p>
+
+<pre><code># useradd git -d &#47;srv&#47;git -m
+# passwd git
+# su git
+
+$ cd &#47;srv&#47;git
+$ git init --bare test.git
+</code></pre>
+
+<p>Then, on your development machine:</p>
+
+<pre><code>$ git clone ssh:&#47;&#47;git@&#60;server ip&#62;&#47;srv&#47;git&#47;test.git
+$ cd test
+$ open test
+$ git add test
+$ git commit -m "Initial commit"
+$ git push
+</code></pre>
+
+<p>This is the basic functionality of Git, although there are still two key features to implement: unauthenticated cloning, and a front-end.</p>
+
+<h2 id="Unauthenticated%20Cloning">Unauthenticated Cloning</h2>
+
+<p>With our current setup, only people who have the <code>git</code> user&#8217;s SSH credentials can read and write to the server&#8217;s repositories.
+If you want anyone to be able to clone a repository (but not be able to push), some extra steps are required.</p>
+
+<p>We will need to make another way to access the server, other than SSH: the Git daemon.
+Assuming you&#8217;re using systemd on your server (if you aren&#8217;t then you should be able to figure this step out), create the file <code>&#47;etc&#47;systemd&#47;system&#47;git-daemon.service</code> and enter the following:</p>
+
+<pre><code>[Unit]
+Description=Start Git Daemon
+
+[Service]
+ExecStart=&#47;usr&#47;bin&#47;git daemon --reuseaddr --base-path=&#47;srv&#47;git&#47; &#47;srv&#47;git&#47;
+Restart=always
+RestartSec=500ms
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=git-daemon
+User=git
+Group=git
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
+<p>Start the daemon and enable it with the command <code>systemctl enable --now git-daemon</code>.
+Inside of the directory for each repository you want to be publicly accessible, create the file <code>git-daemon-export-ok</code> (it does not need any content), which tells Git it&#8217;s allowed to serve that repository.
+You will also need to make your router forward the port <code>9418</code> to your server.</p>
+
+<p>Anyone can now clone your test repository from above with the URL <code>git:&#47;&#47;&#60;server ip&#62;&#47;test.git</code>, but only you can push with <code>ssh:&#47;&#47;git@&#60;server ip&#62;&#47;srv&#47;git&#47;test.git</code>.</p>
+
+<h2 id="Stagit%20as%20a%20Simple%20Front-End">Stagit as a Simple Front-End</h2>
+
+<p>Stagit, from <a href="https://codemadness.org/stagit.html">codemadness.org</a>, is a static site generator for Git repositories. It is free and open-source, released under the MIT License.
+It creates a simple website displaying commit information, files, and more.</p>
+
+<p>Before setting up stagit, we can add some metadata to our repository. Inside the bare repo, create the files <code>description</code>, and <code>owner</code>, filled with a short description of the repository, and your name, respectively.
+Then create the file <code>url</code> with the public cloning link (<code>git:&#47;&#47;&#60;server ip&#62;&#47;test.git</code>). All of this information will be read and displayed by stagit.</p>
+
+<p>Install stagit by cloning it from <code>git:&#47;&#47;git.codemadness.org&#47;stagit</code>, <code>cd</code>ing, and running <code>make install</code> as root.
+Now, create a directory which will house the website&#8217;s files. <code>&#47;srv&#47;stagit</code> is used in this guide.
+Inside that directory, make the file <code>create.sh</code> as follows:</p>
+
+<pre><code>#!&#47;bin&#47;sh
+# makes an index and static pages in $curdir for each repository directory in $reposdir.
+
+# path must be absolute
+reposdir="&#47;srv&#47;git"
+curdir="&#47;srv&#47;stagit"
+
+# make index
+stagit-index "${reposdir}&#47;"*&#47; &#62; "${curdir}&#47;index.html"
+
+# make files per repo
+for dir in "${reposdir}&#47;"*&#47;; do
+
+        # strip .git suffix
+        r=$(basename "${dir}")
+        d=$(basename "${dir}" ".git")
+        printf "%s... " "${d}"
+
+        mkdir -p "${curdir}&#47;${d}"
+        cd "${curdir}&#47;${d}" || continue
+        stagit -c ".cache" "${reposdir}&#47;${r}"
+
+        # symlinks
+        ln -sf log.html index.html
+        ln -sf ..&#47;style.css style.css
+        ln -sf ..&#47;logo.png logo.png
+        ln -sf ..&#47;favicon.png favicon.png
+
+        echo "done"
+done
+</code></pre>
+
+<p>Make sure your repository is on the right branch, then run this script to create the website files in <code>&#47;srv&#47;stagit</code>, and again each time you create a new repository in <code>&#47;srv&#47;git</code>.</p>
+
+<p>In order for the website to update when you push to your git server, we will create a hook for the repository.
+Make a file called <code>post-receive</code> in the <code>hooks</code> directory of your repo (<code>&#47;srv&#47;git&#47;test.git&#47;hooks&#47;post-receive</code>) and ensure it is executable with <code>chmod +x</code>:</p>
+
+<pre><code>#!&#47;bin&#47;sh
+
+reponame="test"
+
+reposdir="&#47;srv&#47;git"
+curdir="&#47;srv&#47;stagit"
+
+# detect git push -f
+force=0
+while read -r old new ref; do
+        hasrevs=$(git rev-list "$old" "^$new" | sed 1q)
+        if test -n "$hasrevs"; then
+                force=1
+                break
+        fi
+done
+
+# remove commits and .cache on git push -f
+if test "$force" = "1"; then
+        rm -rf "${curdir}&#47;${reponame}&#47;.cache" "${curdir}&#47;${reponame}&#47;commits"
+fi
+
+# make index
+stagit-index "${reposdir}&#47;"*&#47; &#62; "${curdir}&#47;index.html"
+
+cd "${curdir}&#47;${reponame}"
+stagit -c ".cache" "${reposdir}&#47;${reponame}.git"
+</code></pre>
+
+<p>You will need to create this hook in each new repository; remember to change the value of <code>$reponame</code>.</p>
+
+<p>To review, when you want to create a new repository you will need to:</p>
+
+<ul>
+<li>Run <code>git init --bare &#60;repo name&#62;.git</code> in <code>&#47;srv&#47;git</code>.</li>
+<li>Create the files <code>git-daemon-export-ok</code>, <code>description</code>, <code>owner</code>, and <code>url</code>, filling in the appropriate information.</li>
+<li>Copy the <code>post-receive</code> script into the <code>hooks</code> directory of the repo, and change it to use the correct repository name.</li>
+<li>Make sure the repo is on the right branch, then <code>cd</code> over to <code>&#47;srv&#47;stagit</code> and run the <code>create.sh</code> script.</li>
+</ul>
+
+<h3 id="Serving%20the%20Website">Serving the Website</h3>
+
+<p>To be able to view the website you will need a web server, but setting one up is out of the scope of this article.
+Chances are, you already have a system for serving HTML files, and if you do, it&#8217;s just a matter of pointing your server at <code>&#47;srv&#47;stagit</code>.</p>
+
+<h2 id="Conclusion">Conclusion</h2>
+
+<p>All and all, the process of creating a Git server with a front-end is fairly simply, although the amount of setup could be intimidating.
+I hope the process this guide describes has helped you learn more about Git, as it did for me.</p>
+</div>
+</div>
+</body>
+</html>
