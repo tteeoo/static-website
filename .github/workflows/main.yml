@@ -25,7 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
+      - name: Instal Python packages
+        run: pip3 install bs4
+
       - name: Manage packages
         run: sudo apt update && sudo apt install -y markdown lowdown
       
